@@ -1,0 +1,10 @@
+files:
+- path: results/tran_Sch_mc.csv
+plots:
+- name: Monte Carlo
+  title: REY_EX output current, 30 Monte Carlo runs
+  analysis: histogram
+  unit: uA
+  waves:
+  - file: 0
+    name: ibns_20u

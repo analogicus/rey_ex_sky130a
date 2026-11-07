@@ -1,0 +1,9 @@
+files:
+- path: output_tran/tran_SchGtKttTtVt.raw
+plots:
+- name: REY_EX output current, typical corner
+  title: REY_EX output current, typical corner
+  ylabel: i(v0) [A]
+  waves:
+  - file: 0
+    name: i(v0)

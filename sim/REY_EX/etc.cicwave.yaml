@@ -1,0 +1,30 @@
+files:
+- path: output_tran/tran_SchGtKffThVt.raw
+- path: output_tran/tran_SchGtKffTlVt.raw
+- path: output_tran/tran_SchGtKfsThVt.raw
+- path: output_tran/tran_SchGtKfsTlVt.raw
+- path: output_tran/tran_SchGtKsfThVt.raw
+- path: output_tran/tran_SchGtKsfTlVt.raw
+- path: output_tran/tran_SchGtKssThVt.raw
+- path: output_tran/tran_SchGtKssTlVt.raw
+plots:
+- name: REY_EX gate-source voltage, extreme corners
+  title: REY_EX gate-source voltage, extreme corners
+  ylabel: v(ibps_5u) [V]
+  waves:
+  - file: 0
+    name: v(ibps_5u)
+  - file: 1
+    name: v(ibps_5u)
+  - file: 2
+    name: v(ibps_5u)
+  - file: 3
+    name: v(ibps_5u)
+  - file: 4
+    name: v(ibps_5u)
+  - file: 5
+    name: v(ibps_5u)
+  - file: 6
+    name: v(ibps_5u)
+  - file: 7
+    name: v(ibps_5u)
