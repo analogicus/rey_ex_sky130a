@@ -8,11 +8,12 @@ wulff
 
 # Why
 
-<explain why you made this module>
+Example block for the sky130 tutorial, the REY version of lelo_ex_sky130a:
+a 1 to 4 NMOS current mirror.
 
 # How
 
-<explain short how you made this module>
+Followed the tutorial. Placement from `cicpy sch2mag`, routed by hand.
 
 
 # What
@@ -29,9 +30,8 @@ wulff
 
 | Signal       | Direction | Domain  | Description                               |
 | :---         | :---:     | :---:   | :---                                      |
-| VDD_1V8      | Input     | VDD_1V8 | Main supply                               |
-| OSC_TEMP_1V8 | Output    | VDD_1V8 | Temperature dependent oscillation frequency|
-| PWRUP_1V8    | Input     | VDD_1V8 | Power up the circuit
+| IBPS_5U      | Input     | VDD_1V8 | Input current, nominally 5 uA             |
+| IBNS_20U     | Output    | VDD_1V8 | Output current, nominally 20 uA           |
 | VSS          | Input     | Ground  |                                           |
 
 

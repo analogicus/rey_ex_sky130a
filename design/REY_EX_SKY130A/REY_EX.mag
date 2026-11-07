@@ -1,0 +1,68 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1794082709
+<< checkpaint >>
+rect -3932 8060 5532 11132
+rect -4116 -4060 5716 8060
+rect -4028 -4172 5628 -4060
+<< locali >>
+rect 352 280 416 3720
+rect 480 120 544 3960
+rect 1120 440 1184 520
+rect 608 417 1056 440
+rect 608 383 940 417
+rect 974 383 1056 417
+rect 608 360 1056 383
+rect 480 40 928 120
+rect 480 -40 544 40
+rect -96 -240 1696 -40
+<< viali >>
+rect 940 3583 974 3617
+rect 940 2783 974 2817
+rect 940 1183 974 1217
+rect 940 383 974 417
+<< metal1 >>
+rect 925 3617 989 3640
+rect 925 3583 940 3617
+rect 974 3583 989 3617
+rect 925 2817 989 3583
+rect 925 2783 940 2817
+rect 974 2783 989 2817
+rect 925 1217 989 2783
+rect 925 1183 940 1217
+rect 974 1183 989 1217
+rect 925 417 989 1183
+rect 925 383 940 417
+rect 974 383 989 417
+rect 925 360 989 383
+use REYATR_NCH_4C5F0  xo0<0> ../REY_ATR_SKY130A
+timestamp 1786140000
+transform 1 0 0 0 1 0
+box -184 -128 1784 928
+use REYATR_NCH_4C5F0  xo0<1>
+timestamp 1786140000
+transform 1 0 0 0 1 800
+box -184 -128 1784 928
+use REYATR_NCH_4C5F0D  xo1 ../REY_ATR_SKY130A
+timestamp 1786140000
+transform 1 0 0 0 1 1600
+box -184 -128 1784 928
+use REYATR_NCH_4C5F0  xo2<0>
+timestamp 1786140000
+transform 1 0 0 0 1 2400
+box -184 -128 1784 928
+use REYATR_NCH_4C5F0  xo2<1>
+timestamp 1786140000
+transform 1 0 0 0 1 3200
+box -184 -128 1784 928
+<< labels >>
+flabel locali s 608 360 1056 440 0 FreeSans 400 0 0 0 IBNS_20U
+port 1 nsew signal bidirectional
+flabel locali s 1120 440 1184 520 0 FreeSans 400 0 0 0 IBPS_5U
+port 2 nsew signal bidirectional
+flabel locali s 480 40 928 120 0 FreeSans 400 0 0 0 VSS
+port 3 nsew ground bidirectional
+<< properties >>
+string FIXED_BBOX 0 0 1600 4000
+<< end >>
